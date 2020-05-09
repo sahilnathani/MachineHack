@@ -1,0 +1,15 @@
+Title: Food Quality Classification
+
+Columns: 'ID', 'LicenseNo', 'FacilityID', 'FacilityName', 'Street', 'Geo_Loc', 'Date', 'Type', 'LocationID', 'Reason', 'SectionViolations', 'RiskLevel', 'Inspection_Results'
+
+Data Pre-Processing: Dropping Null Values, Dropping Meaningless Features, Category Super-Categorisation
+
+Feature Selection: On the basis of graphs and charts visualised.
+
+New Features: Whether Reinspection has been done or not
+
+Labelling: Label Encoder
+
+Algorithms Tried: Random Forest, Bagging, Decision Tree, Support Vector Classifier, Ada Boost Classifier, K Neighbors Classifier
+
+Max Efficiency: 86% by Random Forest

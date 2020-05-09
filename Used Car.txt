@@ -1,0 +1,15 @@
+Title: Used Car Price Prediction
+
+Columns: Year, Seats, Price, Kilometers_Driven, Location, Fuel_Type, Transmission, Owner_Type, Mileage, Engine, Power
+
+Data Pre-Processing: Filling Null Values, Normalising Values, Values added from internet, Imputer
+
+Feature Selection: On the basis of graphs and charts visualised.
+
+New Features: Company, Age of the Car
+
+Labelling: Label Encoder
+
+Algorithms Tried: Random Forest, Bagging, Decision Tree, Linear Regression, Support Vector Regressor, Ada Boost Regressor
+
+Max Efficiency: 91% by Random Forest

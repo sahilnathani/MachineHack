@@ -1,0 +1,15 @@
+Title: Flight Price/Fare Prediction
+
+Columns: 'Route', 'Date_of_Journey', 'Additional_Info', 'Airline', 'Source', 'Destination', 'Dep_Time', 'Arrival_Time', 'Duration', 'Total_Stops', 'Price'
+
+Data Pre-Processing: Correcting Ambiguous Spelling, Character Mismatch, Dropping Null Values
+
+Feature Selection: On the basis of graphs and charts visualised.
+
+New Features: Hour of boarding, Hour of de-boarding, Total Stops
+
+Labelling: Label Encoder
+
+Algorithms Tried: Random Forest, Bagging, Decision Tree, Support Vector Regression, Ada Boost Regression, Polynomial Regression, Linear Regression, Gradient Boosting, Bernoulli, Multinomial, NaiveBayes, XGBoost Regressor
+
+Max Efficiency: 93% by XGBoost Regressor
